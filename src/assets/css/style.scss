@@ -1,0 +1,47 @@
+// Bootstrap
+@import "./bootstrap";
+
+// Bootstrap Vue
+@import url('//unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.min.css');
+
+// Remixicon Icon
+@import url('//cdn.jsdelivr.net/npm/remixicon@2/fonts/remixicon.min.css');
+
+// Line Awesome Icon
+@import url('//cdn.jsdelivr.net/npm/line-awesome@1/dist/line-awesome/css/line-awesome.min.css');
+
+// Roboto Font
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+// Animate css
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+// Custom
+@import "./light/typography";
+@import "./light/style"; 
+@import "./light/responsive";
+
+
+.sub-color {color: var(--iq-title-text);font-size: 20px;margin-top: 0px;font-weight: 600;}
+
+.iq-global-search>ul>li a, .slick-arrow, .breadcrumb-item>a{
+  color: var(--iq-primary);
+  &:hover{
+    color: var(--iq-primary);
+  }
+}
+
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid var(--iq-primary);; /* Blue */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

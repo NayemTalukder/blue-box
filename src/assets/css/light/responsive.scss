@@ -1,0 +1,102 @@
+/*
+Template: BlueBox - Rent DVD Anytime
+Author: NayemTalukder
+*/
+@media(max-width:1980px) {
+	.iq-scrollable-block { overflow-x: hidden; overflow-y: scroll; height: 390px; }
+@media(max-width:1600px) {
+	.iq-scrollable-block { height: 310px; }
+}
+@media(max-width:1699px) {
+	.email-form .select2-container { width: 100% !important; }
+	.iq-search-bar .searchbox { width: 330px; }
+}
+@media(min-width:1300px) {
+}
+@media(max-width:1399px) {
+}
+@media(max-width:1299px) {
+	.iq-top-navbar .iq-navbar-custom .iq-menu-bt { display: block; }
+	.content-page, body.sidebar-main .content-page { margin-left: 0; padding: 116px 15px 0; }
+	.iq-top-navbar, body.sidebar-main .iq-top-navbar { width: auto; left: 0; right: 0; padding-left: 15px; }
+	.iq-top-navbar.fixed-header { width: 100%; left: 0; }
+	.iq-footer, body.sidebar-main .iq-footer { padding: 15px 10px; margin-left: 0; width: 100%; }
+	.iq-sidebar { display: inline-block; z-index: 99; left: -260px; top: 75px; padding-top: 15px; }
+	.iq-top-navbar .iq-navbar-custom .navbar-breadcrumb { display: none; }
+	.iq-sidebar-logo { width: auto; padding-top: 0; }
+	.iq-sidebar-logo .logo-title span { font-size: 18px !important; }
+	body.sidebar-main .iq-top-navbar .iq-sidebar-logo a span { opacity: 1; display: inline-block; }
+	body.sidebar-main .iq-sidebar { width: 260px; left: 0; z-index: 999; }
+	body.sidebar-main .iq-sidebar .iq-sidebar-menu .iq-menu li a span { display: inline-block; opacity: 1; }
+	body.sidebar-main .iq-sidebar-menu .iq-menu li a .iq-arrow-right { display: inline-block; }
+	.iq-navbar-logo { padding: 0; }
+	.iq-sidebar { display: inline-block; z-index: 99; left: -300px; top: 0px; }
+}
+@media(max-width:1199px) {
+}
+@media(max-width:1024px) {
+	h5 {font-size: 1.00em;}
+	h6 {font-size: 0.9em;}
+	p {font-size: 14px;}
+}
+@media (min-width:992px) {
+	.navbar-list li.search-content, .iq-sidebar, .wrapper-menu { display: none; }
+}
+@media(max-width:991px) {
+	.iq-navbar-custom { margin-top: 11px; }
+	.content-page, body.sidebar-main .content-page {padding: 103px 15px 0;}
+	#chartdiv { margin-top: 30px; }
+	.iq-top-navbar .navbar { position: relative; }
+	.iq-top-navbar .navbar-toggler { color: var(--iq-primary); background: var(--iq-light-primary); border: none; padding: 7px 10px; border-radius: 5px; font-size: 24px; }
+	.navbar-nav.navbar-list { float: right; display: inline-block; }
+	.iq-top-navbar .iq-navbar-custom .iq-menu-bt { right: 125px; top: 18px; }
+	.iq-footer, .iq-footer .col-lg-6.text-right { text-align: center !important; }
+	.sign-in-from { padding: 15px; }
+	div.sidebar-toggle { display: block; }
+	.sidebar-toggle { background: var(--iq-light-primary); padding: 12px 10px; margin-right: 15px; border-radius: 5px; height: 40px; width: 40px; line-height: 17px; text-align: center; color: var(--iq-primary); }
+	.navbar-list li .caption { display: none; }
+	.navbar-list li img { margin-right: 0 !important; }
+	ul.iq-week-data { overflow: hidden; overflow-x: scroll; }
+	.iq-top-navbar, body.sidebar-main .iq-top-navbar { padding-left: 15px; }
+	.navbar-list li:last-child>a { padding-right: 20px; }
+	.iq-top-navbar .navbar .iq-search-bar { display: none; }
+}
+@media(max-width:979px) {
+}
+
+@media(max-width:767px) {
+	h2 { font-size: 1.900em;}
+	h3 { font-size: 1.53em;}
+	.content-page, body.sidebar-main .content-page {padding: 103px 0 0;}
+	.table { width: 100%; max-width: 100%; margin-bottom: 1rem; display: block; overflow-x: auto; }
+	.navbar-nav.navbar-list { display: inline-block; }
+	.sign-info { text-align: center; margin-bottom: 30px; }
+	.sign-in-from button { margin-top: 10px; }
+	.sign-in-from .custom-control.custom-checkbox { display: block !important; }
+	.sign-in-from { padding: 15px; width: 100%; }
+}
+@media(max-width:580px) {
+	li.search-menu-opt {width: 100%;}
+	.search-menu-options > li {margin-bottom: 20px;}
+}
+@media(max-width:575px) {
+	.product-price {margin-top: 10px; display: block;}
+}
+@media(max-width:479px) {
+	h4 {font-size: 1.100em;}
+	.iq-card-body { padding: 15px; }
+	body.sidebar-main .iq-top-navbar .iq-sidebar-logo a span { opacity: 0; display: none; }
+	.iq-search-bar { padding: 0 15px; width: 100%; margin: 15px 0 0; }
+	.navbar-list li{position: static;}
+	.iq-top-navbar .iq-sub-dropdown { width: 90%; margin: 0 auto; left: 0; right: 0; }
+	.navbar-list li>a { padding: 0 10px; }
+	.navbar-list li:last-child>a { padding-right: 10px; }
+	.sign-in { width: 61px;	}
+	.sign-in .search-toggle { font-size: 12px; margin-top: 10px !important;	}
+
+}
+@media(max-width:359px) {
+	.iq-search-bar .searchbox { width: 160px; }
+	.navbar-list li.nav-item.nav-icon > a { margin-top: 20px; margin-bottom: 20px; }
+}
+}

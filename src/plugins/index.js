@@ -1,0 +1,5 @@
+import './global'
+import './validator'
+import './vue-lazy-load'
+import './flatpicker'
+import './bootstrap-vue'
